@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits {
+    margin-bottom: 20px;
+}
+
+#benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+#benefits ul li {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#chatbot {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+#chatbot-container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
